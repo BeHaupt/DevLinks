@@ -34,7 +34,7 @@ body {
   background: var(--bg-url) no-repeat top center/cover;
 }
 
-body * {https://github.com/BeHaupt
+body * {
   font-family: var(--fonte01);
   color: var(--cor01);
 }
@@ -78,10 +78,10 @@ body * {https://github.com/BeHaupt
   margin: auto;
 }
 
-#switch button{
+#switch button {
   width: 32px;
   height: 32px;
-  background:#fff var(--bg-switch) no-repeat center;
+  background: #fff var(--bg-switch) no-repeat center;
   border: none;
   border-radius: 50%;
 
@@ -110,8 +110,7 @@ body * {https://github.com/BeHaupt
 
 /* Botoes main */
 
-#links{
-  
+#links {
   margin-top: 20px;
   display: flex;
   align-items: center;
@@ -183,3 +182,12 @@ footer a:hover {
   color: rgb(212, 200, 200);
 }
 
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(imagens/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(imagens/bg-desktop-light.jpg);
+  }
+}
