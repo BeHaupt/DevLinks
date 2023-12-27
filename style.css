@@ -6,7 +6,7 @@
   --fonte01: "Inter", sans-serif;
   --fonte02: Verdana, Geneva, Tahoma, sans-serif;
   --cor01: white;
-  --bg-url: url(imagens/bg-desktop.jpg);
+  --bg-url: url(imagens/bg-mobile.jpg);
   --border-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -16,7 +16,7 @@
 
 .light {
   --cor01: black;
-  --bg-url: url(imagens/bg-desktop-light.jpg);
+  --bg-url: url(imagens/bg-mobile-light.jpg);
   --border-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
