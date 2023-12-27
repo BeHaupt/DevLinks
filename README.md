@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="imagens/Print-DevLinks.png" width="100%">
+  <img alt="projeto DevLinks" src="imagens/Print-DevLinks.png" width="400" height="400">
 </p>
 
 ## 🚀 Tecnologias
