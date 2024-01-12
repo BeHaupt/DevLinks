@@ -1,9 +1,9 @@
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">License</a>
 </p>
 
 <p align="center">
@@ -16,23 +16,23 @@
   <img alt="projeto DevLinks" src="imagens/Print-DevLinks.png" width="400" height="400">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+That project was developed with the following technologies:
 
 - HTML e CSS
 - JavaScript
 - Git e Github
 - Figma
 
-## 💻 Projeto
+## 💻 Project
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+The DevLinks is a link aggregator to use as an online business card.
 
-- [Acesse o projeto finalizado, online](https://behaupt.github.io/DevLinks/)
+- [Access the project, online](https://behaupt.github.io/DevLinks/)
 
-## 🔖 Licença
+## 🔖 License
 
-Esse projeto está sob a licença MIT.
+This project is under the MIT license.
 
 ---
