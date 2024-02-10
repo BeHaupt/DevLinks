@@ -13,6 +13,7 @@
   --highlight-color: rgba(255, 255, 255, 0.2);
   --bg-switch: url(../imagens/moon-stars.svg);
 }
+
 .light {
   --cor01: black;
   --bg-url: url(../imagens/bg-mobile-light.jpg);
@@ -90,7 +91,7 @@ body * {
   left: 0;
   transform: translatey(-50%);
 
-animation: slide-back 0.2s;
+  animation: slide-back 0.2s;
 }
 
 #switch span {
@@ -104,7 +105,7 @@ animation: slide-back 0.2s;
   -webkit-backdrop-filter: blur(4px);
 }
 
-#switch button:hover{
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 
@@ -114,31 +115,31 @@ animation: slide-back 0.2s;
 
 /* Botoes main */
 
-#links {
-  margin-top: 20px;
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0px;
+}
+
+ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-}
 
-#links button {
-  width: 100%;
-  max-width: 588px;
-  height: 55px;
-  font-size: 1rem;
-  background-color: var(--surface-color);
-  border-radius: 7px;
-  border: 1px solid var(--border-color);
-  transition: all 0.3s;
-}
-
-#links a {
   text-decoration: none;
-  color: var(--cor01);
+
+  padding: 16px 24px;
+
+  background-color: var(--surface-color);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+
+  transition: background 0.4s;
 }
 
-#links button:hover {
+ul li a:hover {
   background-color: var(--surface-color-hover);
   border: 1px solid var(--cor01);
 }
@@ -201,18 +202,20 @@ footer a:hover {
   from {
     left: 0;
   }
+
   to {
     left: 50%;
   }
-  
+
 }
 
 @keyframes slide-back {
   from {
     left: 50%;
   }
+
   to {
     left: 0;
   }
-  
+
 }
